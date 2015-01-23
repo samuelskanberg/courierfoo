@@ -1,0 +1,19 @@
+#header {
+    background-color: pink;
+}
+
+#wrapper {
+    background-color: green;
+}
+
+#content {
+    background-color: lightblue;
+}
+
+#sidebar {
+    background-color: purple;
+}
+
+#footer {
+    background-color: blue;
+}
