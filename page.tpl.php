@@ -3,11 +3,12 @@
     <?php if ($site_slogan): ?>
         <h2><?php print $site_slogan; ?></h2>
     <?php endif; ?>
+
+    <?php if ($main_menu): ?>
+         <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu'))); ?>
+    <?php endif; ?>
 </div>
 
-<?php if ($main_menu): ?>
-     <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu'))); ?>
-<?php endif; ?>
 
 <div id="wrapper">
     <div id="content">
