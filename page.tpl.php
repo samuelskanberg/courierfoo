@@ -1,8 +1,10 @@
 <div id="header">
-    <h1><?php print $site_name;?></h1>
-    <?php if ($site_slogan): ?>
-        <h2><?php print $site_slogan; ?></h2>
-    <?php endif; ?>
+    <div id="siteheader">
+        <h1><?php print $site_name;?></h1>
+        <?php if ($site_slogan): ?>
+            <h2><?php print $site_slogan; ?></h2>
+        <?php endif; ?>
+    </div>
 
     <?php if ($main_menu): ?>
          <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu'))); ?>
