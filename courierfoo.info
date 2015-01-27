@@ -1,5 +1,5 @@
-name = Foo
-description = Random theme
+name = Courier Foo
+description = Easy clean theme with Courier font
 core = 7.x
 
 regions[header] = Header
@@ -8,7 +8,6 @@ regions[content] = Content
 regions[footer] = Footer
 
 stylesheets[all][] = css/style.css
-stylesheets[print][] = css/print.css
 
 features[] = name
 features[] = main_menu 

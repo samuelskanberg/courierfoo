@@ -1,4 +1,4 @@
-# Foo - super simple theme
+# Courier Foo
 
 My messing around with themes for Drupal 7
 
