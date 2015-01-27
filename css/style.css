@@ -73,3 +73,14 @@ li a:hover {
     padding-top: 50px;
     min-height: 100px;
 }
+
+/* Big letters for paragraphs in page content */
+.node .content p:first-letter {
+    font-size:400%; 
+    display:block;
+    float:left;
+    margin: 0.06em 0 0;
+    padding-right: 0.1em;
+    height:3.9em;
+    color:#ccc; 
+}
