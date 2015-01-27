@@ -17,7 +17,6 @@
         <?php print render($page['content']); ?>
     </div>
 
-        <div id="sidebar">
     <?php if ($page['sidebar_first']): ?>
         <div id="sidebar">
             <?php print render($page['sidebar_first']); ?>

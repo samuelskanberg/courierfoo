@@ -6,17 +6,19 @@ html {
   box-sizing: inherit;
 }
 
-
+body {
+    font-family: "Lucida Console", Courier, monospace;
+}
 
 #wrapper, #header {
-    background-color: green;
     width: 80%;
     margin: 0 auto;
     max-width: 1100px;
 }
 
 #header {
-    background-color: pink;
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
     padding: 50px 20px;
 }
 
@@ -34,8 +36,14 @@ html {
 #main-menu li {
     display: inline;
 }
-#main-menu li a {
+
+a {
+    color: #777;
     text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 #header:after {
@@ -45,17 +53,23 @@ html {
 }
 
 #content {
-    background-color: lightblue;
-    width: 80%;
+    width: 70%;
     float: left;
     min-height: 200px;
 }
 
 #sidebar {
-    background-color: purple;
+    border-left: solid 1px #aaa;
+    margin-top: 30px;
+    padding: 10px;
+    float: right;
+    width: auto;
 }
 
 #footer {
-    background-color: blue;
+    text-align: center;
+    border-top: solid 1px #aaa;
     clear: both;
+    padding-top: 50px;
+    min-height: 100px;
 }
